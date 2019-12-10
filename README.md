@@ -7,7 +7,7 @@ It's a web that exposes you a login form and you must discover the username and 
 
 ### Solution
 
-SQL Injection using SQLMap
+SQL Injection using SQLMap. <br>
 [SQLMap - automatic SQL injection](http://sqlmap.org/)
 
 Tell SQLMap to detect vulnerabilites sending a payload example (extracted from the form)
